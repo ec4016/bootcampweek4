@@ -12,7 +12,8 @@ class Solution:
             while dq and curr <= dq[-1][1]:
                 dq.pop()
             dq.append([i + 1, curr])
-            if result < float('inf'):
-                return result
-            else:
-                return -1
+            
+        if result < float('inf'):
+            return result
+        else:
+            return -1
