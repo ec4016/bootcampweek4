@@ -1,4 +1,3 @@
-```py
 from collections import deque
 class Solution:
     def shortestSubarray(self, nums: List[int], k: int) -> int:
@@ -16,4 +15,4 @@ class Solution:
             if result < float('inf'):
                 return result
             else:
-                return -1```
+                return -1
